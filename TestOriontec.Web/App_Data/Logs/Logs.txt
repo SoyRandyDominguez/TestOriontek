@@ -1,0 +1,926 @@
+DEBUG 2021-04-05 17:15:57,522 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-05 17:15:57,536 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-05 17:15:57,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,547 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,547 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,547 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,547 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,547 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:15:57,552 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-05 17:15:57,829 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:15:57,829 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:15:57,829 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:15:57,829 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:15:58,281 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:16:01,238 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-05 17:16:01,291 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-05 17:16:01,311 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-05 17:16:01,318 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-05 17:16:01,326 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-05 17:16:01,529 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-05 17:16:01,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-05 17:16:01,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-05 17:16:01,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-05 17:16:01,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-05 17:16:01,608 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-05 17:16:01,608 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-05 17:16:01,608 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-05 17:16:01,608 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-05 17:16:01,608 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-05 17:16:01,608 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-05 17:16:01,608 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-05 17:16:01,609 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-05 17:16:05,195 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-05 17:16:05,196 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-05 17:16:05,197 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-05 17:16:05,198 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-05 17:16:05,199 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-05 17:16:05,200 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2021-04-05 17:18:11,571 [5    ] tOriontec.Web.Controllers.HomeController - ComponentActivator: could not instantiate TestOriontec.EntityFramework.TestOriontecDbContext
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate TestOriontec.EntityFramework.TestOriontecDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception: The system cannot find the file specified
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass60_0.<UsingConnection>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClass66_0`1.<CreateInitializationAction>b__0()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<>c.<InitializeDatabase>b__58_0(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at TestOriontec.EntityFramework.TestOriontecDbContext..ctor(String nameOrConnectionString) in C:\Users\randy\Pictures\TestOriontec\6.3.0\src\TestOriontec.EntityFramework\EntityFramework\TestOriontecDbContext.cs:line 31
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAllList()
+   at Castle.Proxies.Invocations.IRepository`2_GetAllList_2.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`1Proxy_1.GetAllList()
+   at Abp.Localization.ApplicationLanguageManager.GetLanguagesFromDatabase(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguagesFromDatabase_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetLanguagesFromDatabase.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguagesFromDatabase(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageManager.<>c__DisplayClass26_0.<GetLanguageDictionaryFromCache>b__0()
+   at Abp.Runtime.Caching.TypedCacheExtensions.<>c__DisplayClass0_0`2.<Get>b__0(TKey k)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.<>c__DisplayClass16_0.<Get>b__0(String k)
+   at Abp.Runtime.Caching.AbpCacheBase`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheExtensions.Get[TKey,TValue](ITypedCache`2 cache, TKey key, Func`1 factory)
+   at Abp.Localization.ApplicationLanguageManager.GetLanguageDictionaryFromCache(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageManager.GetLanguageDictionary(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguageDictionary_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetLanguageDictionary.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguageDictionary(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguages_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetLanguages.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguages(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageManager.GetActiveLanguages(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetActiveLanguages_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetActiveLanguages.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetActiveLanguages(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageProvider.GetActiveLanguages()
+   at Abp.Localization.LanguageManager.GetActiveLanguages()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2021-04-05 17:20:30,316 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-05 17:20:30,329 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-05 17:20:30,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:30,342 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-05 17:20:30,604 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:20:30,604 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:20:30,604 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:20:30,604 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:20:30,993 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:20:33,666 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-05 17:20:33,736 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-05 17:20:33,753 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-05 17:20:33,759 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-05 17:20:33,766 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-05 17:20:33,957 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-05 17:20:34,018 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-05 17:20:34,018 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-05 17:20:34,023 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-05 17:20:34,023 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-05 17:20:34,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-05 17:20:34,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-05 17:20:34,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-05 17:20:34,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-05 17:20:34,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-05 17:20:34,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-05 17:20:34,025 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-05 17:20:34,025 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-05 17:20:37,201 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-05 17:20:37,202 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-05 17:20:37,203 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-05 17:20:37,204 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-05 17:20:37,205 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-05 17:20:37,206 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2021-04-05 17:21:20,697 [5    ] tOriontec.Web.Controllers.HomeController - ComponentActivator: could not instantiate TestOriontec.EntityFramework.TestOriontecDbContext
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate TestOriontec.EntityFramework.TestOriontecDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: CREATE DATABASE statement not allowed within multi-statement transaction.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<NonQuery>b__4_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass52_0.<CreateDatabaseFromScript>b__0(DbConnection conn)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass60_0.<UsingConnection>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClass66_0`1.<CreateInitializationAction>b__0()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<>c.<InitializeDatabase>b__58_0(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at TestOriontec.EntityFramework.TestOriontecDbContext..ctor(String nameOrConnectionString) in C:\Users\randy\Pictures\TestOriontec\6.3.0\src\TestOriontec.EntityFramework\EntityFramework\TestOriontecDbContext.cs:line 31
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAllList()
+   at Castle.Proxies.Invocations.IRepository`2_GetAllList_2.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`1Proxy_1.GetAllList()
+   at Abp.Localization.ApplicationLanguageManager.GetLanguagesFromDatabase(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguagesFromDatabase_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetLanguagesFromDatabase.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguagesFromDatabase(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageManager.<>c__DisplayClass26_0.<GetLanguageDictionaryFromCache>b__0()
+   at Abp.Runtime.Caching.TypedCacheExtensions.<>c__DisplayClass0_0`2.<Get>b__0(TKey k)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.<>c__DisplayClass16_0.<Get>b__0(String k)
+   at Abp.Runtime.Caching.AbpCacheBase`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheExtensions.Get[TKey,TValue](ITypedCache`2 cache, TKey key, Func`1 factory)
+   at Abp.Localization.ApplicationLanguageManager.GetLanguageDictionaryFromCache(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageManager.GetLanguageDictionary(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguageDictionary_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetLanguageDictionary.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguageDictionary(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguages_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetLanguages.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguages(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageManager.GetActiveLanguages(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetActiveLanguages_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetActiveLanguages.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetActiveLanguages(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageProvider.GetActiveLanguages()
+   at Abp.Localization.LanguageManager.GetActiveLanguages()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2021-04-05 17:23:52,333 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-05 17:23:52,346 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-05 17:23:52,353 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:52,361 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-05 17:23:52,643 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:23:52,643 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:23:52,643 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:23:52,643 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:23:53,036 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:23:55,793 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-05 17:23:55,873 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-05 17:23:55,892 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-05 17:23:55,899 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-05 17:23:55,908 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-05 17:23:56,087 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-05 17:23:56,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-05 17:23:56,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-05 17:23:56,161 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-05 17:23:56,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-05 17:23:56,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-05 17:23:56,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-05 17:23:56,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-05 17:23:56,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-05 17:23:56,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-05 17:23:56,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-05 17:23:56,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-05 17:23:56,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-05 17:23:59,314 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-05 17:23:59,315 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-05 17:23:59,316 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-05 17:23:59,317 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-05 17:23:59,318 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-05 17:23:59,319 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2021-04-05 17:24:30,416 [5    ] tOriontec.Web.Controllers.HomeController - ComponentActivator: could not instantiate TestOriontec.EntityFramework.TestOriontecDbContext
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate TestOriontec.EntityFramework.TestOriontecDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: Instance failure.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass60_0.<UsingConnection>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClass66_0`1.<CreateInitializationAction>b__0()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<>c.<InitializeDatabase>b__58_0(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at TestOriontec.EntityFramework.TestOriontecDbContext..ctor(String nameOrConnectionString) in C:\Users\randy\Pictures\TestOriontec\6.3.0\src\TestOriontec.EntityFramework\EntityFramework\TestOriontecDbContext.cs:line 31
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAllList()
+   at Castle.Proxies.Invocations.IRepository`2_GetAllList_2.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`1Proxy_1.GetAllList()
+   at Abp.Localization.ApplicationLanguageManager.GetLanguagesFromDatabase(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguagesFromDatabase_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetLanguagesFromDatabase.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguagesFromDatabase(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageManager.<>c__DisplayClass26_0.<GetLanguageDictionaryFromCache>b__0()
+   at Abp.Runtime.Caching.TypedCacheExtensions.<>c__DisplayClass0_0`2.<Get>b__0(TKey k)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.<>c__DisplayClass16_0.<Get>b__0(String k)
+   at Abp.Runtime.Caching.AbpCacheBase`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheExtensions.Get[TKey,TValue](ITypedCache`2 cache, TKey key, Func`1 factory)
+   at Abp.Localization.ApplicationLanguageManager.GetLanguageDictionaryFromCache(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageManager.GetLanguageDictionary(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguageDictionary_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetLanguageDictionary.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguageDictionary(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguages_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetLanguages.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetLanguages(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageManager.GetActiveLanguages(Nullable`1 tenantId)
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetActiveLanguages_callback(Nullable`1 tenantId)
+   at Castle.Proxies.Invocations.ApplicationLanguageManager_GetActiveLanguages.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ApplicationLanguageManagerProxy.GetActiveLanguages(Nullable`1 tenantId)
+   at Abp.Localization.ApplicationLanguageProvider.GetActiveLanguages()
+   at Abp.Localization.LanguageManager.GetActiveLanguages()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+WARN  2021-04-05 17:24:55,977 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate TestOriontec.EntityFramework.TestOriontecDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass60_0.<UsingConnection>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClass66_0`1.<CreateInitializationAction>b__0()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<>c.<InitializeDatabase>b__58_0(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at TestOriontec.EntityFramework.TestOriontecDbContext..ctor(String nameOrConnectionString) in C:\Users\randy\Pictures\TestOriontec\6.3.0\src\TestOriontec.EntityFramework\EntityFramework\TestOriontecDbContext.cs:line 31
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.ProceedInfo.Invoke()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.<InternalInterceptAsynchronous>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.<InternalInterceptAsynchronous>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate TestOriontec.EntityFramework.TestOriontecDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass60_0.<UsingConnection>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClass66_0`1.<CreateInitializationAction>b__0()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<>c.<InitializeDatabase>b__58_0(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at TestOriontec.EntityFramework.TestOriontecDbContext..ctor(String nameOrConnectionString) in C:\Users\randy\Pictures\TestOriontec\6.3.0\src\TestOriontec.EntityFramework\EntityFramework\TestOriontecDbContext.cs:line 31
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.ProceedInfo.Invoke()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.<InternalInterceptAsynchronous>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.<InternalInterceptAsynchronous>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+DEBUG 2021-04-05 17:26:25,266 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-05 17:26:25,279 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-05 17:26:25,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:25,293 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-05 17:26:25,562 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:26:25,562 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:26:25,562 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:26:25,562 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:26:25,954 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:26:28,549 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-05 17:26:28,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-05 17:26:28,637 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-05 17:26:28,644 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-05 17:26:28,652 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-05 17:26:28,833 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-05 17:26:28,893 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-05 17:26:28,893 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-05 17:26:28,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-05 17:26:28,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-05 17:26:28,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-05 17:26:28,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-05 17:26:28,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-05 17:26:28,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-05 17:26:28,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-05 17:26:28,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-05 17:26:28,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-05 17:26:28,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-05 17:26:32,007 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-05 17:26:32,008 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-05 17:26:32,009 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-05 17:26:32,010 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-05 17:26:32,011 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-05 17:26:32,012 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-04-05 17:27:15,909 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-05 17:27:15,921 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-05 17:27:15,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:15,935 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-05 17:27:16,192 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:27:16,192 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:27:16,192 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:27:16,192 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 17:27:16,578 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 17:27:19,242 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-05 17:27:19,311 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-05 17:27:19,328 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-05 17:27:19,335 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-05 17:27:19,343 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-05 17:27:19,525 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-05 17:27:19,586 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-05 17:27:19,586 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-05 17:27:19,592 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-05 17:27:19,592 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-05 17:27:19,592 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-05 17:27:19,592 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-05 17:27:19,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-05 17:27:19,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-05 17:27:19,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-05 17:27:19,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-05 17:27:19,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-05 17:27:19,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-05 17:27:22,895 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-05 17:27:22,896 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-05 17:27:22,897 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-05 17:27:22,898 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-05 17:27:22,899 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-05 17:27:22,900 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2021-04-05 17:27:43,363 [5    ] tOriontec.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2021-04-05 19:11:40,096 [55   ] tOriontec.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2021-04-05 19:19:44,334 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-05 19:19:46,561 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-05 19:19:46,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:46,576 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-05 19:19:47,765 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 19:19:47,765 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 19:19:47,765 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 19:19:47,765 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-05 19:19:48,305 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-05 19:19:49,800 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-05 19:19:49,858 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-05 19:19:49,883 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-05 19:19:49,889 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-05 19:19:49,896 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-05 19:19:50,086 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-05 19:19:50,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-05 19:19:50,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-05 19:19:50,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-05 19:19:50,158 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-05 19:19:50,158 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-05 19:19:50,158 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-05 19:19:50,158 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-05 19:19:50,158 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-05 19:19:50,159 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-05 19:19:50,159 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-05 19:19:50,159 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-05 19:19:50,159 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-05 19:19:53,418 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-05 19:19:53,419 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-05 19:19:53,420 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-05 19:19:53,421 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-05 19:19:53,422 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-05 19:19:53,423 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2021-04-05 19:20:04,771 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-04-05 19:22:16,131 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5608a4a5-49b6-422e-8a50-72cb5ad2bebc","IpAddress":"127.0.0.1","TenantId":null,"UserId":1,"ConnectTime":"2021-04-05T19:22:16.1224707-04:00","Properties":{}}
+DEBUG 2021-04-05 19:22:16,188 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5608a4a5-49b6-422e-8a50-72cb5ad2bebc
+WARN  2021-04-05 19:22:27,874 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'TestOriontec'!
+DEBUG 2021-04-05 19:23:38,321 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5608a4a5-49b6-422e-8a50-72cb5ad2bebc
+DEBUG 2021-04-05 19:23:40,578 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"23ae22e2-db74-490a-bf1a-1d84009b3a0e","IpAddress":"127.0.0.1","TenantId":null,"UserId":1,"ConnectTime":"2021-04-05T19:23:40.5788866-04:00","Properties":{}}
+DEBUG 2021-04-05 19:23:40,592 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 23ae22e2-db74-490a-bf1a-1d84009b3a0e
+DEBUG 2021-04-05 19:24:16,579 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 23ae22e2-db74-490a-bf1a-1d84009b3a0e
+DEBUG 2021-04-05 19:24:17,667 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c1f1fbef-3400-47ef-9c30-f0107e9faf5f","IpAddress":"127.0.0.1","TenantId":null,"UserId":1,"ConnectTime":"2021-04-05T19:24:17.6675845-04:00","Properties":{}}
+DEBUG 2021-04-05 19:24:17,684 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c1f1fbef-3400-47ef-9c30-f0107e9faf5f
+WARN  2021-04-05 19:24:23,958 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'TestOriontec'!
+DEBUG 2021-04-05 19:24:32,963 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c1f1fbef-3400-47ef-9c30-f0107e9faf5f
+DEBUG 2021-04-05 19:24:33,963 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3bffd3c2-aed2-47fe-b8ba-d8d84ef161c0","IpAddress":"127.0.0.1","TenantId":null,"UserId":1,"ConnectTime":"2021-04-05T19:24:33.9625321-04:00","Properties":{}}
+DEBUG 2021-04-05 19:24:33,967 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3bffd3c2-aed2-47fe-b8ba-d8d84ef161c0
+DEBUG 2021-04-06 09:36:48,954 [115  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"49df4606-8acc-477e-8106-8315fbac1231","IpAddress":"127.0.0.1","TenantId":null,"UserId":null,"ConnectTime":"2021-04-06T09:36:48.9506789-04:00","Properties":{}}
+DEBUG 2021-04-06 09:37:14,050 [72   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3bffd3c2-aed2-47fe-b8ba-d8d84ef161c0
