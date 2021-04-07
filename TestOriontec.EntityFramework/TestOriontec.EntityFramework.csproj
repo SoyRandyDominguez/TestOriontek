@@ -230,8 +230,13 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityFramework\Repositories\TaskRepository.cs" />
     <Compile Include="EntityFramework\TestOriontecDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\TestOriontecRepositoryBase.cs" />
+    <Compile Include="Migrations\202104061500532_ADD person and task.cs" />
+    <Compile Include="Migrations\202104061500532_ADD person and task.designer.cs">
+      <DependentUpon>202104061500532_ADD person and task.cs</DependentUpon>
+    </Compile>
     <Compile Include="TestOriontecDataModule.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.Designer.cs">
@@ -359,6 +364,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103241020465_Upgradd_To_ABP_6_3_0.resx">
       <DependentUpon>202103241020465_Upgradd_To_ABP_6_3_0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104061500532_ADD person and task.resx">
+      <DependentUpon>202104061500532_ADD person and task.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

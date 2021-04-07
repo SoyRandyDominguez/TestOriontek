@@ -5,6 +5,8 @@ using Abp.Zero.EntityFramework;
 using TestOriontec.Authorization.Roles;
 using TestOriontec.Authorization.Users;
 using TestOriontec.MultiTenancy;
+using TestOriontec.People;
+using TestOriontec.Tasks;
 
 namespace TestOriontec.EntityFramework
 {
@@ -17,6 +19,12 @@ namespace TestOriontec.EntityFramework
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
          *   pass connection string name to base classes. ABP works either way.
          */
+
+        public virtual IDbSet<Task> Tasks { get; set; }
+
+        public virtual IDbSet<Person> People { get; set; }
+
+
         public TestOriontecDbContext()
             : base("Default")
         {
