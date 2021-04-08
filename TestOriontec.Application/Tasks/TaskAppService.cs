@@ -11,7 +11,7 @@ using AutoMapper;
 
 namespace TestOriontec.Tasks
 {
-    public class TaskAppService : ApplicationService, ITaskAppService
+    public class TaskAppService : TestOriontecAppServiceBase, ITaskAppService
     {
         //These members set in constructor using constructor injection.
 
@@ -23,7 +23,7 @@ namespace TestOriontec.Tasks
         ///In constructor, we can get needed classes/interfaces.
         ///They are sent here by dependency injection system automatically.
         /// </summary>
-        public TaskAppService(IMapper mapper ,ITaskRepository taskRepository, IRepository<Person> personRepository)
+        public TaskAppService(IMapper mapper, ITaskRepository taskRepository, IRepository<Person> personRepository)
         {
             _mapper = mapper;
             _taskRepository = taskRepository;
@@ -34,9 +34,29 @@ namespace TestOriontec.Tasks
         {
             var tasks = _taskRepository.GetAllWithPeople(input.AssignedPersonId, input.State);
 
+
+            List<TaskDto> map = new List<TaskDto>();
+
+            foreach (var item in tasks)
+            {
+                TaskDto ob = new TaskDto
+                {
+                    Id = item.Id,
+                    AssignedPersonId = item.AssignedPersonId,
+                    AssignedPersonName = item.AssignedPerson.Name,
+                    CreationTime = item.CreationTime,
+                    Description = item.Description,
+                    State = (byte)item.State
+                };
+
+                map.Add(ob);
+            }
+
+
             return new GetTasksOutput
             {
-                Tasks =  _mapper.Map<List<TaskDto>>(tasks)
+                Tasks = map
+
             };
         }
 

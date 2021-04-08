@@ -415,6 +415,10 @@
       <Project>{17298ea0-af73-4f30-b6f1-2066100d7d74}</Project>
       <Name>TestOriontec.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TestOriontec.EntityFramework\TestOriontec.EntityFramework.csproj">
+      <Project>{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}</Project>
+      <Name>TestOriontec.EntityFramework</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Start\" />
