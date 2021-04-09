@@ -227,6 +227,15 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPersonService.cs" />
+    <Compile Include="People\Dtos\CreatePersonInput.cs" />
+    <Compile Include="People\Dtos\GetPeopleInput.cs" />
+    <Compile Include="People\Dtos\GetPeopleOutput.cs" />
+    <Compile Include="People\Dtos\GetPersonOutput.cs" />
+    <Compile Include="People\Dtos\PersonDto.cs" />
+    <Compile Include="People\Dtos\UpdatePersonInput.cs" />
+    <Compile Include="People\IPeopleAppService.cs" />
+    <Compile Include="People\PeopleAppService.cs" />
     <Compile Include="Tasks\Dtos\CreateTaskInput.cs" />
     <Compile Include="Tasks\Dtos\GetTasksInput.cs" />
     <Compile Include="Tasks\Dtos\GetTasksOutput.cs" />

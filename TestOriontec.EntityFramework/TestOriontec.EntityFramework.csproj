@@ -230,6 +230,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityFramework\Repositories\PeopleRepository.cs" />
     <Compile Include="EntityFramework\Repositories\TaskRepository.cs" />
     <Compile Include="EntityFramework\TestOriontecDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\TestOriontecRepositoryBase.cs" />
