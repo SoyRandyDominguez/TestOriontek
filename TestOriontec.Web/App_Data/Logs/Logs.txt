@@ -3055,3 +3055,712 @@ Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado se
    at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
    at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
    at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-04-08 20:26:08,918 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-08 20:26:08,918 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:08,934 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-08 20:26:09,134 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:26:09,134 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:26:09,134 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:26:09,134 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:26:09,518 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:26:11,520 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-08 20:26:11,574 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-08 20:26:11,585 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-08 20:26:11,585 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-08 20:26:11,603 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-08 20:26:11,717 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-08 20:26:11,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-08 20:26:11,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-08 20:26:11,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-08 20:26:11,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-08 20:26:11,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-08 20:26:11,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-08 20:26:11,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-08 20:26:11,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-08 20:26:11,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-08 20:26:11,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-08 20:26:11,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-08 20:26:11,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-08 20:26:13,534 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-08 20:26:13,535 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-08 20:26:13,536 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-08 20:26:13,537 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-08 20:26:13,538 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-08 20:26:13,539 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-04-08 20:26:13,540 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2021-04-08 20:26:13,541 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.People.IPeopleAppService' with service name 'app/people'.
+WARN  2021-04-08 20:26:17,193 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-04-08 20:36:02,811 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:36:02,826 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-08 20:36:03,044 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:36:03,044 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:36:03,044 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:36:03,044 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:36:03,408 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+FATAL 2021-04-08 20:36:05,063 [1    ] Abp.AbpBootstrapper                      - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: Could not find a public constructor for type TestOriontec.EntityFramework.Repositories.TestOriontecRepositoryBase`1[Abp.Localization.ApplicationLanguage].
+Windsor by default cannot instantiate types that don't expose public constructors.
+To expose the type as a service add public constructor, or use custom component activator.
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernelByType(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernel(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.TryResolveCore(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency, Object& value)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernelByType(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernel(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.TryResolveCore(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency, Object& value)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernelByType(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernel(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.TryResolveCore(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency, Object& value)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernelByType(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernel(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.TryResolveCore(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency, Object& value)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T]()
+   at Abp.Dependency.IocManager.Resolve[T]()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: Could not find a public constructor for type TestOriontec.EntityFramework.Repositories.TestOriontecRepositoryBase`1[Abp.Localization.ApplicationLanguage].
+Windsor by default cannot instantiate types that don't expose public constructors.
+To expose the type as a service add public constructor, or use custom component activator.
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernelByType(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernel(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.TryResolveCore(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency, Object& value)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernelByType(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernel(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.TryResolveCore(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency, Object& value)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernelByType(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernel(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.TryResolveCore(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency, Object& value)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernelByType(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.ResolveFromKernel(CreationContext context, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.TryResolveCore(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency, Object& value)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T]()
+   at Abp.Dependency.IocManager.Resolve[T]()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+DEBUG 2021-04-08 20:36:33,851 [6    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2021-04-08 20:36:33,851 [6    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2021-04-08 20:37:11,445 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:11,477 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-08 20:37:11,681 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:37:11,681 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:37:11,681 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:37:11,681 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:37:12,026 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:37:13,918 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-08 20:37:13,966 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-08 20:37:13,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-08 20:37:13,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-08 20:37:13,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-08 20:37:14,078 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-08 20:37:14,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-08 20:37:14,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-08 20:37:14,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-08 20:37:14,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-08 20:37:14,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-08 20:37:14,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-08 20:37:14,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-08 20:37:14,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-08 20:37:14,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-08 20:37:14,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-08 20:37:14,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-08 20:37:14,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-08 20:37:15,681 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-08 20:37:15,681 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-08 20:37:15,681 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-08 20:37:15,681 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-08 20:37:15,681 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-08 20:37:15,681 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-04-08 20:37:15,681 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2021-04-08 20:37:15,693 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.People.IPeopleAppService' with service name 'app/people'.
+WARN  2021-04-08 20:37:19,135 [7    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-04-08 20:42:00,849 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-08 20:42:00,849 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:00,865 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-08 20:42:01,066 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:42:01,066 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:42:01,066 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:42:01,066 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:42:01,406 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:42:03,324 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-08 20:42:03,368 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-08 20:42:03,387 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-08 20:42:03,387 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-08 20:42:03,398 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-08 20:42:03,498 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-08 20:42:03,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-08 20:42:05,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-08 20:42:05,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-08 20:42:05,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-08 20:42:05,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-08 20:42:05,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-08 20:42:05,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-04-08 20:42:05,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2021-04-08 20:42:05,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.People.IPeopleAppService' with service name 'app/people'.
+WARN  2021-04-08 20:42:08,677 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-04-08 20:46:09,986 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-08 20:46:09,991 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-08 20:46:10,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:10,002 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-08 20:46:10,223 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:46:10,223 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:46:10,223 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:46:10,223 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 20:46:10,552 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 20:46:12,585 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-08 20:46:12,631 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-08 20:46:12,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-08 20:46:12,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-08 20:46:12,654 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-08 20:46:12,737 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-08 20:46:12,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-08 20:46:12,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-08 20:46:12,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-08 20:46:12,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-08 20:46:12,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-08 20:46:12,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-08 20:46:12,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-08 20:46:12,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-08 20:46:12,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-08 20:46:12,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-08 20:46:12,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-08 20:46:12,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-08 20:46:14,370 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-08 20:46:14,370 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-08 20:46:14,370 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-08 20:46:14,370 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-08 20:46:14,370 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-08 20:46:14,370 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-04-08 20:46:14,384 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2021-04-08 20:46:14,385 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.People.IPeopleAppService' with service name 'app/people'.
+WARN  2021-04-08 20:46:17,892 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+INFO  2021-04-08 20:55:52,647 [47   ] TestOriontec.People.PeopleAppService     - Creating a person for input: [CreatePersonInput > Name = Ashley]
+INFO  2021-04-08 20:56:14,822 [38   ] TestOriontec.People.PeopleAppService     - Creating a person for input: [CreatePersonInput > Name = Ashley]
+DEBUG 2021-04-08 21:18:33,883 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-08 21:18:33,894 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-08 21:18:33,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:33,905 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-08 21:18:34,119 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:18:34,119 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:18:34,119 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:18:34,119 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:18:34,448 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:18:36,473 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-08 21:18:36,522 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-08 21:18:36,536 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-08 21:18:36,537 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-08 21:18:36,544 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-08 21:18:36,656 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-08 21:18:36,704 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-08 21:18:36,704 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-08 21:18:36,712 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-08 21:18:36,712 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-08 21:18:36,712 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-08 21:18:36,712 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-08 21:18:36,712 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-08 21:18:36,712 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-08 21:18:36,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-08 21:18:36,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-08 21:18:36,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-08 21:18:36,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-08 21:18:38,531 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-08 21:18:38,531 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-08 21:18:38,533 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-08 21:18:38,534 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-08 21:18:38,535 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-08 21:18:38,536 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-04-08 21:18:38,536 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2021-04-08 21:18:38,536 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.People.IPeopleAppService' with service name 'app/people'.
+WARN  2021-04-08 21:18:42,239 [11   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-04-08 21:20:51,965 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-08 21:20:51,977 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-08 21:20:51,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:51,987 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-08 21:20:52,205 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:20:52,205 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:20:52,205 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:20:52,205 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:20:52,555 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:20:54,575 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-08 21:20:54,625 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-08 21:20:54,639 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-08 21:20:54,643 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-08 21:20:54,644 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-08 21:20:54,758 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-08 21:20:54,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-08 21:20:54,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-08 21:20:54,815 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-08 21:20:54,815 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-08 21:20:54,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-08 21:20:54,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-08 21:20:54,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-08 21:20:54,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-08 21:20:54,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-08 21:20:54,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-08 21:20:54,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-08 21:20:54,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-08 21:20:56,663 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-08 21:20:56,664 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-08 21:20:56,664 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-08 21:20:56,665 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-08 21:20:56,666 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-08 21:20:56,667 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-04-08 21:20:56,668 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2021-04-08 21:20:56,669 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.People.IPeopleAppService' with service name 'app/people'.
+WARN  2021-04-08 21:21:00,395 [11   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-04-08 21:23:13,194 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-08 21:23:13,212 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-08 21:23:13,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:13,231 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-08 21:23:13,508 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:23:13,508 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:23:13,508 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:23:13,508 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:23:13,866 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:23:16,501 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-08 21:23:16,549 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-08 21:23:16,565 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-08 21:23:16,584 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-08 21:23:16,590 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-08 21:23:16,731 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-08 21:23:16,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-08 21:23:16,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-08 21:23:16,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-08 21:23:16,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-08 21:23:16,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-08 21:23:16,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-08 21:23:16,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-08 21:23:16,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-08 21:23:16,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-08 21:23:16,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-08 21:23:16,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-08 21:23:16,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-08 21:23:18,797 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-08 21:23:18,797 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-08 21:23:18,801 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-08 21:23:18,802 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-08 21:23:18,804 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-08 21:23:18,805 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-04-08 21:23:18,806 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2021-04-08 21:23:18,806 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.People.IPeopleAppService' with service name 'app/people'.
+WARN  2021-04-08 21:23:22,671 [11   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+INFO  2021-04-08 21:24:55,589 [15   ] TestOriontec.People.PeopleAppService     - Updating a Person for input: [UpdatePersonInput > PersonId = 3, Name = Ashley 2]
+WARN  2021-04-08 21:27:10,235 [16   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2021-04-08 21:27:10,235 [16   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/task/CreateTask
+WARN  2021-04-08 21:27:51,416 [16   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2021-04-08 21:27:51,416 [16   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/task/GetTasks?api_key=Bearer l_im6KId5FC1K49aBrM29z6QPC119MF5rHssnBYS7QEwUN3a0t8-xIQY3dBriwLrk35aB_xgBtokyZYPn0smoBppuqajh4RS0UZTAwmOik4MZ5uYilIihROTLqPxdVgzQWyRkyjwXdbY6udUxqNi9zaqF81--byySzZvimjV4dIGovgcryKezZeI_WMtX1YM1RRg2wV5wtCwtQg4R1gwq3fm80FCi76yTUK3zqFKsz-OPZxpgTB4nPZ0zj8VD4RSvr6agFgpM1K3CSZJZD081B9xBD4x912euAxLiqL1qDnp7RW8SVAZpTRYrEHGPh5UqV68ye3lv0UzOoWxennhnx6adUSlGEWXEsj7wKuz_ewDoXvgFy3w4KS3ez3_YCi2Vb1dWaWexFToiCqvs9bUF9sB4K7bqhQMrTHfT_SuD0MeJIn1PKyNVYvBwcDouAKY_q4ov7Mr4iFB-5C1J15Gx9XY4uVcc7BSXBzx1_T6ANw
+INFO  2021-04-08 21:28:46,407 [21   ] TestOriontec.Tasks.TaskAppService        - Creating a task for input: [CreateTaskInput > AssignedPersonId = 1, Description = Este lo creo para editarlo]
+WARN  2021-04-08 21:29:53,295 [35   ] nHandling.AbpApiExceptionFilterAttribute - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError()
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+WARN  2021-04-08 21:29:53,441 [35   ] nHandling.AbpApiExceptionFilterAttribute - There are 1 validation errors:
+WARN  2021-04-08 21:29:53,441 [35   ] nHandling.AbpApiExceptionFilterAttribute - The field TaskId must be between 1 and 9.22337203685478E+18. (input.TaskId)
+INFO  2021-04-08 21:30:39,430 [39   ] TestOriontec.Tasks.TaskAppService        - Updating a task for input: [UpdateTaskInput > TaskId = 7, AssignedPersonId = 1, State = 0]
+DEBUG 2021-04-08 21:35:31,617 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-04-08 21:35:31,637 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-04-08 21:35:31,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Web.TestOriontecWebModule, TestOriontec.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecDataModule, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecCoreModule, TestOriontec.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.TestOriontecApplicationModule, TestOriontec.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestOriontec.Api.TestOriontecWebApiModule, TestOriontec.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:31,658 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-04-08 21:35:32,010 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:35:32,010 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:35:32,010 [1    ] o.Configuration.LanguageManagementConfig - Converted TestOriontec (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:35:32,010 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-04-08 21:35:32,482 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestOriontec.EntityFramework.TestOriontecDbContext, TestOriontec.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-04-08 21:35:35,101 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-04-08 21:35:35,144 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-04-08 21:35:35,160 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-04-08 21:35:35,166 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestOriontec
+DEBUG 2021-04-08 21:35:35,171 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-04-08 21:35:35,290 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-04-08 21:35:35,347 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-04-08 21:35:35,347 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-04-08 21:35:35,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-04-08 21:35:35,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.CreateUserDto
+DEBUG 2021-04-08 21:35:35,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UpdateUserDto
+DEBUG 2021-04-08 21:35:35,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Users.Dto.UserDto
+DEBUG 2021-04-08 21:35:35,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Roles.Dto.PermissionDto
+DEBUG 2021-04-08 21:35:35,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-04-08 21:35:35,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-04-08 21:35:35,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.MultiTenancy.Dto.TenantDto
+DEBUG 2021-04-08 21:35:35,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-04-08 21:35:35,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestOriontec.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-04-08 21:35:37,453 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-04-08 21:35:37,454 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-04-08 21:35:37,455 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-04-08 21:35:37,455 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-04-08 21:35:37,455 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-04-08 21:35:37,455 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-04-08 21:35:37,455 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2021-04-08 21:35:37,458 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestOriontec.People.IPeopleAppService' with service name 'app/people'.
+WARN  2021-04-08 21:35:41,907 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+INFO  2021-04-08 21:36:31,228 [6    ] TestOriontec.Tasks.TaskAppService        - Updating a task for input: [UpdateTaskInput > TaskId = 7, AssignedPersonId = 1, State = 0]
+INFO  2021-04-08 21:36:57,788 [12   ] TestOriontec.Tasks.TaskAppService        - Updating a task for input: [UpdateTaskInput > TaskId = 7, AssignedPersonId = 1, State = 0]

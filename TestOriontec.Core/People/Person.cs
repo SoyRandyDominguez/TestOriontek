@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TestOriontec.People
 {
-    public class Person : Entity<long>
+    public class Person : Entity
     {
         public virtual string Name { get; set; }
     }

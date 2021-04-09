@@ -13,9 +13,10 @@ namespace TestOriontec.People
     {
 
         private readonly IMapper _mapper;
-        private readonly IPersonRepository _personRepository;
+        private readonly IPeopleRepository _personRepository;
 
-        public PeopleAppService(IMapper mapper, IPersonRepository personRepository)
+        public PeopleAppService(IMapper mapper, IPeopleRepository personRepository)
+        
         {
             _personRepository = personRepository;
             _mapper = mapper;
@@ -36,7 +37,7 @@ namespace TestOriontec.People
 
             return new GetPersonOutput
             {
-                person = new PersonDto() { Id = retorno.Id, Name = retorno.Name }
+                Person = new PersonDto() { Id = retorno.Id, Name = retorno.Name }
             };
         }
 
@@ -67,9 +68,20 @@ namespace TestOriontec.People
             };
         }
 
-        public GetPersonOutput UpdatePerson(UpdatePersonInput input)
+        public GetPersonOutput UpdatePeople(UpdatePersonInput input)
         {
-            throw new NotImplementedException();
+            Logger.Info("Updating a Person for input: " + input);
+
+            var person = _personRepository.Get(input.Id);
+
+            person.Name = input.Name;
+            _personRepository.Update(person);
+
+            return new GetPersonOutput()
+            {
+                Person= new PersonDto() { Id= person.Id, Name = person.Name}
+            };
+
         }
     }
 }

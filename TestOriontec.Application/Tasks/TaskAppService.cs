@@ -77,6 +77,10 @@ namespace TestOriontec.Tasks
                 task.AssignedPerson = _personRepository.Load(input.AssignedPersonId.Value);
             }
 
+            if (input.Description.Length > 0)
+            {
+                task.Description = input.Description;
+            }
         }
 
         public void CreateTask(CreateTaskInput input)

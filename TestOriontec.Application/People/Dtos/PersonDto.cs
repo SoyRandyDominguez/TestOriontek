@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TestOriontec.People.Dtos
 {
-    public class PersonDto : EntityDto<long>
+    public class PersonDto : EntityDto
     {
         public string Name { get; set; }
 

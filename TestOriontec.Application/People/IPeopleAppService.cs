@@ -11,7 +11,7 @@ namespace TestOriontec.People
     public interface IPeopleAppService: IApplicationService
     {
         GetPeopleOutput GetPeople(GetPeopleInput input);
-        GetPersonOutput UpdatePerson(UpdatePersonInput input);
+        GetPersonOutput UpdatePeople(UpdatePersonInput input);
         GetPersonOutput CreatePeople(CreatePersonInput input);
         
 

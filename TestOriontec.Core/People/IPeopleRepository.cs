@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TestOriontec.People
 {
-    public interface IPersonRepository : IRepository<Person,long>
+    public interface IPeopleRepository : IRepository<Person>
     {
          List<Person> GetAllWithName(string personName);
         Person GetOneById(int id);

@@ -8,7 +8,7 @@ using TestOriontec.People;
 
 namespace TestOriontec.EntityFramework.Repositories
 {
-    public class PeopleRepository : TestOriontecRepositoryBase<Person>, IPersonRepository
+    public class PeopleRepository : TestOriontecRepositoryBase<Person>, IPeopleRepository
     {
 
         public PeopleRepository(IDbContextProvider<TestOriontecDbContext> dbContextProvider)

@@ -14,6 +14,7 @@ namespace TestOriontec.Tasks.Dtos
         public long TaskId { get; set; }
 
         public int? AssignedPersonId { get; set; }
+        public string Description { get; set; }
 
         public TaskState? State { get; set; }
 

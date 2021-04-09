@@ -8,6 +8,6 @@ namespace TestOriontec.People.Dtos
 {
     public class GetPersonOutput
     {
-        public PersonDto person { get; set; }
+        public PersonDto Person { get; set; }
     }
 }
